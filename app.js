@@ -20,11 +20,11 @@ console.log(multiplication);
 
 // Functions
 
-const sayHello = function() {
+function sayHello() {
     alert("Hello World!");
 };
 
-console.log(sayHello);
+sayHello();
 
 function checkAge(name, age) {
     if (age < 21) {
@@ -43,3 +43,28 @@ let favoriteVeggies = ['Asparagus', 'Bell Peppers', 'Spinach', 'Cucumber'];
 for(let i = 0; i < 5; i++) {
     console.log(favoriteVeggies.forEach);
 }
+
+
+const person1 = {
+    name: "Dre",
+    age: 29,
+}
+const person2 = {
+    name: "Spain",
+    age: 33,
+}
+const person3 = {
+    name: "Cristina",
+    age: 29,
+}
+const person4 = {
+    name: "Amy",
+    age: 30,
+}
+const person5 = {
+    name: "Math",
+    age: 31,
+}
+
+let people = [person1, person2, person3, person4, person5]
+
